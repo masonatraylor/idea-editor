@@ -1,0 +1,9 @@
+<main class="container">
+  <%= link_to sanitize("&larr; Back to idea"), idea_path(@idea) %>
+
+  <div class="header">
+    <h1>Edit idea</h1>
+  </div>
+
+  <%= render "form", idea: @idea %>
+</main>

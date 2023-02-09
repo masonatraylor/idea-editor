@@ -1,0 +1,14 @@
+en:
+  simple_form:
+    placeholders:
+      idea:
+        name: Name of your idea
+    labels:
+      idea:
+        name: Name
+
+  helpers:
+    submit:
+      idea:
+        create: Create idea
+        update: Update idea
